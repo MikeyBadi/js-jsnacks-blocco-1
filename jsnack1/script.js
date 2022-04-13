@@ -1,10 +1,10 @@
 // JSnack 1
 //  L’utente inserisce due numeri in successione, con due prompt. Il software stampa il maggiore
 
-let firstNumber = prompt("Insert you first number")
+let firstNumber = parseInt(prompt("Insert you first number"))
 console.log(firstNumber);
 
-let secondNumber = prompt("Insert your second number")
+let secondNumber = parseInt(prompt("Insert your second number"))
 console.log(secondNumber);
 
 let result;
