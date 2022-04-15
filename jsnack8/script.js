@@ -19,7 +19,7 @@ let result = 0;
 
 for(i=0; i < numberArr.length; i++){
   result += parseInt(numberArr[i]);
-  console.log = (result);
+  console.log(result);
 };
 
 document.querySelector("#result").innerHTML = "Il totale del numero estratto è: " + result
