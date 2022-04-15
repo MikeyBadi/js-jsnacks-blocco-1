@@ -1,4 +1,4 @@
-const total = 0
+let total = 0
 
 for(let i = 0; i < 5; i++ ){
   let number = parseInt(prompt(`Inserisci il ${i} numero`));
