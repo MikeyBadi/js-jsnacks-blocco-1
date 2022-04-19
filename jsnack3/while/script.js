@@ -4,7 +4,7 @@ const richieste = 5;
 c = 0
 
 while(richieste > c){
-  let number = parseInt(prompt(`Inserisci il ${c} numero`));
+  let number = parseInt(prompt(`Inserisci il ${c+1}° numero`));
 
   total += number;
 
